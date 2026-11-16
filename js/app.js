@@ -148,16 +148,94 @@
 
 // if /else Statement
 
-marks = 95;
+// marks = 95;
 
-if(marks >= 90){
-    console.log("A+");
-}else if(marks >= 75){
-    console.log("A");
-}else if(marks >=65){
-    console.log("B+");
-}else if(marks >=50){
-    console.log("C");
-}else{
-    console.log("f");
+// if(marks >= 90){
+//     console.log("A+");
+// }else if(marks >= 75){
+//     console.log("A");
+// }else if(marks >=65){
+//     console.log("B+");
+// }else if(marks >=50){
+//     console.log("C");
+// }else{
+//     console.log("f");
+// }
+
+// Switch case Statement
+
+// let day = 5;
+
+// switch(day){
+
+//     case 1:
+//         console.log("Monday");
+//         break;
+        
+//     case 2:
+//         console.log("Tuesday");
+//         break;
+
+//     case 3 :
+//         console.log("Wednesday");
+//         break;  
+//     case 4:
+//         console.log("Thursday");
+//         break;
+
+//     case 5:
+//         console.log("Friday");
+//         break;
+//     default:
+//         console.log("Invalid day");
+// }
+
+//          For Loop
+
+for(let i=0; i<=10; i++){
+    console.log(i);
+
 }
+
+
+// while loop
+
+// let y = 0;
+
+// while(y<5){
+//     console.log(y);
+//     y++;
+// }
+
+// console.log("-------------------------------------- ");
+
+// let z = 10;
+
+// while(z<5){
+//     console.log(z);
+//     z++;
+// }
+
+// console.log("-------------------------------------- ");
+
+// let t= 0;
+
+// do{
+//     console.log(t);
+//     t++;
+// }while(t<5);
+
+// console.log("-------------------------------------- ");
+
+// let p = 10;
+
+// do{
+//     console.log(p);
+//     p++;
+// }while(p<5);
+
+
+
+
+
+
