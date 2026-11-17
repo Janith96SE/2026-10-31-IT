@@ -235,8 +235,9 @@ for(let i=0; i<=10; i++){
 // }while(p<5);
 
 
-// Functions(methods)
+//----------- Functions(methods)---------
 
+//------------Normal function------ 01
 function myFunction(){
     console.log("Hello Function");
 
@@ -244,11 +245,36 @@ function myFunction(){
 
 myFunction();
 
-// Function with parameters
+//----------------Function with parameters----------- 02
 
 function getSum(num1,num2){
     return num1 + num2;
 }
 console.log(getSum(10,20));
 
+//---------------Function with variable----------------- 03
 
+let sum = function(num1,num2){
+
+    return num1+num2;   
+}
+console.log(sum(10,10));
+
+
+// ---------------Arrow Function----------------- 04
+
+let plusSum=(num1,num2) =>{
+    return num1+num2;
+}
+console.log(plusSum(12.5,12.5));
+
+// ------ without return we can write arrow function--------
+
+let plusSum2=(num1,num2) =>num1+num2;
+
+console.log(plusSum2(20,20 ));  
+
+
+let sampleTxt = textValue => textValue;
+
+console.log(sampleTxt("Hello arrow function"));
