@@ -235,7 +235,20 @@ for(let i=0; i<=10; i++){
 // }while(p<5);
 
 
+// Functions(methods)
 
+function myFunction(){
+    console.log("Hello Function");
 
+}
+
+myFunction();
+
+// Function with parameters
+
+function getSum(num1,num2){
+    return num1 + num2;
+}
+console.log(getSum(10,20));
 
 
