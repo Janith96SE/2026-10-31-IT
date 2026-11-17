@@ -277,4 +277,4 @@ console.log(plusSum2(20,20 ));
 
 let sampleTxt = textValue => textValue;
 
-console.log(sampleTxt("Hello arrow function"));
+console.loglog(samppleText("Hello arrow function"));
